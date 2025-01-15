@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+lerna-debug.log
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.exn.diag
+report.*.diag
+
+# Data
+data
+*.dat
+
+# Compiled source
+build
+dist
+.next
+out
+export
+.cache
+
+# Packages
+node_modules
+/payload-build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+*.DS_Store
+Thumbs.db
+
+# Optional npm files
+.npmrc
+
+# pnpm
+pnpm-lock.yaml
+
+# Yarn
+yarn-error.log
+.pnp*
+
+# Next.js specific
+.next
+
+# Payload specific
+/admin/build
+/payload-media
