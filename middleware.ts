@@ -17,6 +17,11 @@ function getLocale(request: Request) {
 export function middleware(request: Request) {
   const { pathname } = new URL(request.url)
   
+  // Skip /admin routes
+  if (pathname.startsWith('/admin')) {
+    return
+  }
+
   // Check if there is any supported locale in the pathname
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
@@ -34,7 +39,7 @@ export function middleware(request: Request) {
 export const config = {
   matcher: [
     // Skip all internal paths (_next)
-    '/((?!_next|.*\\..*).*)',
+    '/((?!_next|api|.*\\..*).*)',
     // Optional: only run on root (/) URL
     '/'
   ],
