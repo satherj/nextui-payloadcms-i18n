@@ -1,11 +1,11 @@
-# NextUI + PayloadCMS + Localization Boilerplate
+# HeroUI + PayloadCMS + Localization Boilerplate
 
-A boilerplate for creating applications using Next.js, NextUI, and PayloadCMS with built-in localization support. This template aims to provide a starting point for projects that require a modern UI framework, a headless CMS, and multi-language content management.
+A boilerplate for creating applications using Next.js, HeroUI, and PayloadCMS with built-in localization support. This template aims to provide a starting point for projects that require a modern UI framework, a headless CMS, and multi-language content management.
 
 ## Technologies Used
 
 - [Next.js 15](https://nextjs.org/docs)
-- [NextUI v2](https://nextui.org/)
+- [HeroUI v2](https://heroui.org/)
 - [PayloadCMS](https://payloadcms.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Tailwind Variants](https://tailwind-variants.org)
